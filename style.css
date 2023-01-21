@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.input-group button{
+    background-color:blue;
+    color:white;
+    border: none;
+    padding:5px ;
+}
+.input-group .clear{
+    background-color: red;
+    color: white;
+    margin-left: 2px;
+    border-radius: 5px;
+}
+.input-group input{
+    width: 80%;
+    padding: 5px;
+}
+.input-group{
+    display: flex;
+    justify-content: center;
+}
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+li{
+    list-style: none;
+    background-color: lightgreen;
+    padding: 5px;
+    border-radius: 5px;
+}
+.liste{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.liste li{
+    width: 80%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+li span.pending{
+    text-decoration: none;
+}
+li span.completed{
+    text-decoration: line-through;
+}
